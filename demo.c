@@ -3,9 +3,6 @@
 int main()
 {
     printf("Hello F-Code:\n");
-    f1();
-    f2();
-    f3();
-    f4();
+	printf("Hello");
     return 0;
 }
