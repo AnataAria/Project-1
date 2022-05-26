@@ -1,11 +1,13 @@
 #include <stdio.h>
-
+int minus(){
+	int a, b;
+	scanf("%d %d", &a, &b);
+	printf("Minus: %d", a-b);	
+};
 int main()
 {
+	int a, b;
     printf("Hello F-Code:\n");
-    f1();
-    f2();
-    f3();
-    f4();
+    minus();
     return 0;
 }
